@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.login {
+  position: relative;
+}
+.login::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('http://hexagonep.com/wp-content/uploads/2022/03/HEXAGON-Logo-PNG-100x100.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  z-index: -1;
+}
