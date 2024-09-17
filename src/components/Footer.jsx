@@ -6,7 +6,7 @@ export default function Footer () {
             // className={styles.appFooter}
         >
             {/* <p className={styles.p}>Copyright &copy; Mohammed Ahsanul Kabir</p> */}
-            <p >Copyright &copy; Mohammed Ahsanul Kabir</p>
+            <p >Copyright &copy; Hexagon Engineering and Planning</p>
         </div>
     )
 }

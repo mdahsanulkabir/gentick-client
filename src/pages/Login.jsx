@@ -27,6 +27,7 @@ const Login = () => {
                             fullWidth
                             label="E-mail"
                             variant="standard"
+                            type="text"
                         />
                         <br />
                         <br />
@@ -34,6 +35,7 @@ const Login = () => {
                             fullWidth
                             label="Password"
                             variant="standard"
+                            type="text"
                         />
                     </div>
                 </section>

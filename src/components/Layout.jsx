@@ -5,9 +5,7 @@ import NavBar from "./NavBar";
 
 const Layout = () => {
     return (
-        <div 
-            // className={styles.layout}
-        >
+        <div className="layout">
             <header>
                 <NavBar />
             </header>
