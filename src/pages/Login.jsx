@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Login = () => {
     const navigate = useNavigate();
     const handleSubmit = () => {
-        navigate('/home')
+        navigate('/home/home')
     }
     return (
         <div 
