@@ -42,6 +42,10 @@ const Login = () => {
                     <div className='flex justify-center'>
                         <Button variant="contained" color='primary' onClick={handleSubmit}>Go Home</Button>
                     </div>
+                    <div className='flex justify-center'>
+                        <Button variant="contained" color='primary' onClick={() => navigate('/home/create-user')}>Create user</Button>
+                        <Button variant="contained" color='primary' onClick={() => navigate('/home/create-customer')}>Create customer</Button>
+                    </div>
             </form>
         </div>
     )
